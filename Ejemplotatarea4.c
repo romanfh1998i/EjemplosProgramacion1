@@ -14,7 +14,7 @@ int main(){
     cantidadHs=(CantidadHoras*3600);
     cantidadMs=(CantidadMinutos*60);
     CantidadPasos=2;
-    CantidadPSegundos=((CantidadSegundos+cantidadMs+cantidadHs)/CantidadPasos);
+    CantidadPSegundos=((CantidadSegundos+cantidadMs+cantidadHs)*CantidadPasos);
     printf("la cantidad de pasos de minutos es %d",CantidadPSegundos);    
 
 }

@@ -41,7 +41,7 @@ int main (){
         printf("%s es palindromo",palabra);
 
     }
-    printf("la cantidad de letra en la palabra %s es =%d\n",palabra,longitud);
+    printf("la cantidad de palabra en la palabra %s es =%d\n",palabra,longitud);
     Mayuscula(palabra);
     minuscula(palabra);
 

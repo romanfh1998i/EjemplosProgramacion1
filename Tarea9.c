@@ -40,7 +40,7 @@ void print(int arr[],int tamano){
 }
 int main(){
     int a,j,jx,ord;
-    int notas[MaxNotas];\
+    int notas[MaxNotas];
 
         for (j=0;j<MaxNotas;++j){
             printf("ingrese nota # %d \n",j+1);
